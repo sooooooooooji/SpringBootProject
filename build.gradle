@@ -28,7 +28,7 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.projectlombok:lombok')
     compile('org.springframework.boot:spring-boot-starter-data-jpa')     //스프링 부트용 jpa 추상황 라이브러리
-    compile('org.springframework.boot:spring-boot-starter-mustache')
+    compile('org.springframework.boot:spring-boot-starter-mustache')      //머스테치 (수 많은 언어를 지원하는 심플한 템플릿 엔진)
     compile('com.h2database:h2')    // 인메모리 관계형 데이터베이스 , 별도의 설치 필요없이 프로젝트 의존성만으로 관리할 수 있음, 메모리에서 실행되기 때문에 애플리케이션을 재시작할 때마다 초기화됨
 //
 //    compile('org.springframework.boot:spring-boot-starter-oauth2-client')
