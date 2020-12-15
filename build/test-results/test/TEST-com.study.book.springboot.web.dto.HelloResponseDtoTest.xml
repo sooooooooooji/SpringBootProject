@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.study.book.springboot.web.dto.HelloResponseDtoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-15T08:49:33" hostname="SOOJIui-MacBookPro.local" time="0.049">
-  <properties/>
-  <testcase name="룸복_기능_테스트" classname="com.study.book.springboot.web.dto.HelloResponseDtoTest" time="0.049"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
