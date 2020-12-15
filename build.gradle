@@ -30,12 +30,15 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-data-jpa')     //스프링 부트용 jpa 추상황 라이브러리
     compile('org.springframework.boot:spring-boot-starter-mustache')      //머스테치 (수 많은 언어를 지원하는 심플한 템플릿 엔진)
     compile('com.h2database:h2')    // 인메모리 관계형 데이터베이스 , 별도의 설치 필요없이 프로젝트 의존성만으로 관리할 수 있음, 메모리에서 실행되기 때문에 애플리케이션을 재시작할 때마다 초기화됨
-//
-//    compile('org.springframework.boot:spring-boot-starter-oauth2-client')
-//    compile('org.springframework.session:spring-session-jdbc')
-//
-//    compile("org.mariadb.jdbc:mariadb-java-client")
+
+    compile('org.springframework.boot:spring-boot-starter-oauth2-client')   //소셜로그인 등 클라이언트 입장에서 소셜기능 구현시 필요한 의존성 (구글로그인)
+    // spring-security-oauth2-client와 spring-security-oauth2-jose를 기본으로 관리해줌
+
+    compile('org.springframework.session:spring-session-jdbc')
+    //
+    // compile("org.mariadb.jdbc:mariadb-java-client")
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
+    // 스프링 시큐리티 테스트를 위한 여러도구를 지원함
     testCompile("org.springframework.security:spring-security-test")
 }
