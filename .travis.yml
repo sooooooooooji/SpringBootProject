@@ -15,7 +15,7 @@ cache:
 script: "./gradlew clean build"
 
 before_deploy:
-  - zip -r SpringBootProject
+  - zip -r SpringBootProject.zip /SpringBootProject
   - mkdir -p deploy
   - mv SpringBootProject.zip deploy/SpringBootProject.zip
 
